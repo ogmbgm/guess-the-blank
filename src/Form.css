@@ -1,0 +1,38 @@
+#radio-holder {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+#question-form {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+.country-radio {
+	width: 25px;
+	height: 25px;
+	border: none !important;
+	background-color: #dedbdb !important;
+	margin-right: 10px;
+}
+
+.country-radio:checked {
+	background-color: #573dc1 !important;
+	color: #573dc1 !important;
+}
+
+#question-form button {
+	width: 130px;
+	height: 50px;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+	#question-form {
+		margin-left: 5px;
+	}
+}
